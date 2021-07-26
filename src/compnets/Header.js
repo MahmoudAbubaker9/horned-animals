@@ -1,15 +1,15 @@
 import React from 'react';
 
-class Header extends React.Component{
+class Footer extends React.Component{
     render(){
         return (
             <div>
-            <header>
-                <h1>Horned Animals</h1>
-            </header>
+            <footer>
+                <h1>Made by Mahmoud Abubaker</h1>
+            </footer>
             </div>
         )
     }
 }
 
-export default Header;
+export default Footer;
