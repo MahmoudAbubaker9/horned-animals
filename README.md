@@ -2,11 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Project info :
+This application created to displays images and information of horned animals.
+This application will allow you to filter the images by number of horns and chose your favorite image.
 
-# Time Estimate
-For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
-
-Add this information to your README.
 
 ## Feature #1: Display images
 Why are we implementing this feature?

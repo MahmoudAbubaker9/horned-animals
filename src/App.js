@@ -13,7 +13,8 @@ class App extends React.Component {
         <Main />
         <Footer />
       </div>
-    )
+    );
   }
 }
+
 export default App;
