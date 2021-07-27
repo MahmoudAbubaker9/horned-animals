@@ -1,5 +1,88 @@
 # Project info :
 
+
+# Time Estimate
+For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
+
+Add this information to your README.
+
+## Feature #1: Display images
+Why are we implementing this feature?
+As a user, I want to view the images on the page so that I can browse the photo collection.
+What are we going to implement?
+Given that a user opens the application in the browser
+When the user navigates to the home page
+Then the photo gallery should display all of the images in the gallery
+
+How are we implementing it?
+The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
+
+1-Number and name of feature: Display images
+2- Estimate of time needed to complete: 30min
+Start time: 3:00PM
+Finish time: 3:50PM
+3- Actual time needed to complete: 50min
+
+## Feature #2: Allow users to vote for their favorite beast
+Why are we implementing this feature?
+As a user, I want to be able to interact with the site and pick my favorite beast.
+What are we going to implement?
+Given that a user clicks on an image, the number of “favorites” displayed on that image will increase by one.
+
+How are we implementing it?
+Create state inside of the HornedBeast component that keeps track of the number of times an image was clicked.
+
+Put a heart in each horned beast with the number of times it was “favorited” next to it.
+
+1-Number and name of feature: Allow users to vote for their favorite beast
+2- Estimate of time needed to complete: 2hr
+Start time: 4:30PM
+Finish time: 6:00PM
+3- Actual time needed to complete: 1 hr 30min
+
+///////////////////////////////////////
+## Feature 3: Bootstrap
+Why are we implementing this feature?
+As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes.
+What are we going to implement?
+Given that a user opens the application in the browser
+When the images are displayed on the screen
+Then each image should be rendered in a visually pleasing way
+The images should be displayed in columns, as screen width allows
+
+How are we implementing it?
+Bring in the react-bootstrap library and use it to style your application making sure that it is responsive.
+Stretch Goal: Add Interaction
+Why are we implementing this feature?
+As a user, I want to be able to interact with each item on the page.
+What are we going to implement?
+Given that a user clicks on an item other than the horned beasts, such as the title of the page or the footer, the information and styles should change.
+
+How are we implementing it?
+When the user clicks on elements such as the header, footer or title of page, make something change using state.
+You can update the words, change the styles or add something new. Be creative.
+
+1-Number and name of feature: Allow users to vote for their favorite beast
+2- Estimate of time needed to complete: 1hr
+Start time: 9:00PM
+Finish time: 10:00PM
+3- Actual time needed to complete: 1 hr
+
+## Lab 03 
+Feature #1: Display a Modal
+Why are we implementing this feature?
+As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+What are we going to implement?
+Given that a user wants to view the details of the image
+When the user clicks on an individual image
+Then the image should render larger on the screen with the description displayed
+
+1-Number and name of feature: Display a Modal
+2- Estimate of time needed to complete: 3 hr
+Start time: 4:00PM
+Finish time: -- did not finish
+3- Actual time needed to complete: ?
+
 ## This application created to displays images and information of horned animals.
 ## This application will allow you to filter the images by number of horns and chose your favorite image.
 
