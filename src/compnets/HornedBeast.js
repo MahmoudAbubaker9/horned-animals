@@ -1,7 +1,8 @@
-import React from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
-import { Card } from "react-bootstrap";
-import { Button } from "react-bootstrap";
+/* eslint-disable no-unused-vars */
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Card } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -21,18 +22,18 @@ class HornedBeast extends React.Component {
   render() {
     return (
       <Card
-        style={{ width: "25rem", height: "40rem"}}
-        onClick={this.voteCounter}
+        style={{ width: '25rem', height: '40rem' }}
         className="text-center"
       >
-          
+
         <Card.Header>{this.props.title}</Card.Header>
-        <Card.Img variant="top" src={this.props.image_url} style={{ width: "25rem", height: "30rem" }}/>
+        <Card.Img variant="top" src={this.props.image_url} style={{ width: '25rem', height: '30rem' }} onClick={this.voteCounter} />
         <Card.Body>
-        <Card.Text>{this.props.description}</Card.Text>
-        <p>{this.state.counter} Vote</p> 
-        <Button variant="primary"> click to Vote</Button>       
-          
+          <Card.Text>{this.props.description}</Card.Text>
+          <Card.Text>Horns : {this.props.horns}</Card.Text>
+          <Card.Text>keyword : {this.props.keyword}</Card.Text>
+          <Card.Text>❤ Number of Click ❤</Card.Text>
+          <Card.Text>{this.state.counter}</Card.Text>
         </Card.Body>
       </Card>
     );
