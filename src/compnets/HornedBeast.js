@@ -17,6 +17,13 @@ class HornedBeast extends React.Component {
     this.setState({
       counter: this.state.counter + 1,
     });
+    // test
+    this.props.showCard();
+    this.props.CardData(
+      this.props.title,
+      this.props.image_url,
+      this.props.description,
+    );
   };
 
   render() {

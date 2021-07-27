@@ -2,7 +2,6 @@
 import React from 'react';
 import Data from './data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
 import HornedBeast from './HornedBeast';
 
 
@@ -19,6 +18,8 @@ class Main extends React.Component {
             image_url = {picRender.image_url}
             keyword = {picRender.keyword}
             horns = {picRender.horns}
+            showCard={this.props.stateUpdate}
+            CardData={this.props.CardData}
           />
 
         </div>
