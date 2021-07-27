@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import HornedBeast from './HornedBeast';
 import Data from './data.json';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import HornedBeast from './HornedBeast';
+
 
 
 

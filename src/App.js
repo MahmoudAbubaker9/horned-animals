@@ -7,6 +7,7 @@ import Main from './compnets/Main';
 import Header from './compnets/Header';
 import SelectedBeast from './compnets/SelectedBeast';
 
+
 class App extends React.Component {
 
   constructor(props) {
@@ -18,7 +19,7 @@ class App extends React.Component {
       description: null,
     };
 
-    let CardData = (title, pic, descp) => {
+    this.CardData = (title, pic, descp) => {
       this.setState({
         title: title,
         url: pic,
@@ -26,13 +27,13 @@ class App extends React.Component {
       });
     };
 
-    let stateShow = () => {
+    this.stateShow = () => {
       this.setState({
         show: true,
       });
     };
 
-    let stateHide = () => {
+    this.stateHide = () => {
       this.setState({
         show: false,
       });
@@ -43,16 +44,16 @@ class App extends React.Component {
         <div>
           <Header />
           <SelectedBeast
-            show={stateShow}
-            hide={stateHide}
+            show={this.state.stateShow}
+            hide={this.state.stateHide}
             title={this.state.title}
             pic={this.state.url}
             descp={this.state.description}
           />
           <Main
             data={Data}
-            stateUpdate={stateShow}
-            CardData ={CardData}
+            stateUpdate={this.state.stateShow}
+            CardData ={this.state.CardData}
           />
           <Footer />
         </div>
