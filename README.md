@@ -1,11 +1,12 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # Project info :
-This application created to displays images and information of horned animals.
-This application will allow you to filter the images by number of horns and chose your favorite image.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+
+# Time Estimate
+For each of the features listed below, make an estimate of the time it will take you to complete the feature, and record your start and finish times for that feature:
+
+Add this information to your README.
 
 ## Feature #1: Display images
 Why are we implementing this feature?
@@ -68,6 +69,25 @@ You can update the words, change the styles or add something new. Be creative.
 Start time: 9:00PM
 Finish time: 10:00PM
 3- Actual time needed to complete: 1 hr
+
+## Lab 03 
+Feature #1: Display a Modal
+Why are we implementing this feature?
+As a user, I want the image to be displayed in a larger size and with the description shown so that I can view the details of a single image.
+What are we going to implement?
+Given that a user wants to view the details of the image
+When the user clicks on an individual image
+Then the image should render larger on the screen with the description displayed
+
+1-Number and name of feature: Display a Modal
+2- Estimate of time needed to complete: 3 hr
+Start time: 4:00PM
+Finish time: -- did not finish
+3- Actual time needed to complete: ?
+
+## This application created to displays images and information of horned animals.
+## This application will allow you to filter the images by number of horns and chose your favorite image.
+
 
 ## Available Scripts
 
