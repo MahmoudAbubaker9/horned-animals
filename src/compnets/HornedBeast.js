@@ -2,7 +2,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Card } from 'react-bootstrap';
-import { Button } from 'react-bootstrap';
+
+ 
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -18,7 +19,7 @@ class HornedBeast extends React.Component {
       counter: this.state.counter + 1,
     });
     // test
-    this.props.showCard();
+    this.props.stateUpdate();
     this.props.CardData(
       this.props.title,
       this.props.image_url,

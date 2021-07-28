@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+// import { render } from 'react';
 import Data from './compnets/data.json';
 import Footer from './compnets/Footer';
 import Main from './compnets/Main';
@@ -18,8 +19,8 @@ class App extends React.Component {
       url: null,
       description: null,
     };
-
-    this.CardData = (title, pic, descp) => {
+  }
+    CardData = (title, pic, descp) => {
       this.setState({
         title: title,
         url: pic,
@@ -27,40 +28,41 @@ class App extends React.Component {
       });
     };
 
-    this.stateShow = () => {
+    stateShow = () => {
       this.setState({
         show: true,
       });
     };
 
-    this.stateHide = () => {
+    stateHide = () => {
       this.setState({
         show: false,
       });
     };
 
-    render();{
-      return (
-        <div>
+    render(){
+      return(
+        < div >
           <Header />
           <SelectedBeast
-            show={this.state.stateShow}
-            hide={this.state.stateHide}
+            show={this.state.show}
             title={this.state.title}
             pic={this.state.url}
             descp={this.state.description}
+            CardData ={this.CardData}
+            stateUpdate={this.stateShow}
+            hide={this.stateHide}
           />
           <Main
             data={Data}
-            stateUpdate={this.state.stateShow}
-            CardData ={this.state.CardData}
+            stateUpdate={this.stateShow}
+            CardData ={this.CardData}
           />
           <Footer />
-        </div>
+        </div >
       );
-    
+
     }
   }
-}
-  
+
 export default App;
