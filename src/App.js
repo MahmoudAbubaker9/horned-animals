@@ -1,6 +1,7 @@
 /* eslint-disable no-undef */
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import { render } from 'react';
 import Data from './compnets/data.json';
 import Footer from './compnets/Footer';
 import Main from './compnets/Main';
@@ -39,7 +40,7 @@ class App extends React.Component {
       });
     };
 
-    render();{
+    render(){
       return (
         <div>
           <Header />
