@@ -10,7 +10,7 @@ class Footer extends React.Component {
       <div>
         <footer>
           <Card className="text-center" >
-            <Card.Img src="https://celinereads.files.wordpress.com/2016/03/free-watercolor-headers.png" alt="Card image" style={{ width: '1340px', height: '125px' }} />
+            <Card.Img src="https://celinereads.files.wordpress.com/2016/03/free-watercolor-headers.png" alt="Card image" style={{ width: '1340px', height: '120px' }} />
             <Card.ImgOverlay>
 
 
